@@ -3,7 +3,7 @@ import XCTest
 final class ThirdTest: XCTestCase {
     
     var settingsScreen: SettingsScreen!
-    var aboutScreen: AboutScreen!
+    
     
     var app: XCUIApplication!
 
@@ -14,7 +14,7 @@ final class ThirdTest: XCTestCase {
         app.launch()
         
         settingsScreen = SettingsScreen(app: app)
-        aboutScreen = AboutScreen(app: app)
+        
                 
     }
 
